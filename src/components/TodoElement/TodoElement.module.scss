@@ -1,0 +1,48 @@
+.todoContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  border: 1px solid red;
+  border-radius: 5px;
+
+  .completeContainer {
+    background-color: red;
+    width: 30px;
+    max-height: 30px;
+    border: none;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .completeCheckbox {
+    background-color: yellow;
+  }
+
+  .todoText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Akaya Telivigala", cursive;
+    font-size: 20px;
+  }
+
+  .removeContainer {
+    flex: auto;
+    margin-left: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    .removeButton {
+      background-color: red;
+      width: 30px;
+      height: 30px;
+      border: none;
+      display: flex;
+      margin-left: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
